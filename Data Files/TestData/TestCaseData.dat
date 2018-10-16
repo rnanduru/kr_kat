@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>TestCaseData</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>786f9a2f-39fc-4dcd-a999-9286caef6dd1</dataFileGUID>
+   <dataSourceUrl></dataSourceUrl>
+   <driver>InternalData</driver>
+   <data>Sanity+TestCase null %23%23Login%23%23 null null null null null null</data>
+   <data>null null username operations null null null null null</data>
+   <data>null null password welcome null null null null null</data>
+   <data>null null %23OpenAppURL%23%23 null null null null null null</data>
+   <data>null null url google.com null null null null null</data>
+   <data>null null %23%23Dashboard_Header%23%23 null null null null null null</data>
+   <data>null null customer Test null null null null null</data>
+   <data>null null category Cat1%2CCat2 null null null null null</data>
+   <data>null null KHBP_PPG PPG1%2CPPG2%2CPPG3 null null null null null</data>
+   <data>null null SAP_PPG SAPPPG1%2CSAPPP2%2CSAPPP3 null null null null null</data>
+   <data>null null %23%23Dashboard_Verification%23%23 null null null null null null</data>
+   <data>null null verification_text null null null null null null</data>
+   <internalDataColumns>
+      <columnIndex>0</columnIndex>
+      <name>TestCaseName</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>1</columnIndex>
+      <name>TestCaseID</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>2</columnIndex>
+      <name>PageObject</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>3</columnIndex>
+      <name>DataSet1</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>4</columnIndex>
+      <name>DataSet2</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>5</columnIndex>
+      <name>DataSet3</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>6</columnIndex>
+      <name>DataSet4</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>7</columnIndex>
+      <name>DataSet5</name>
+      <size>12</size>
+   </internalDataColumns>
+   <internalDataColumns>
+      <columnIndex>8</columnIndex>
+      <name>DataSet6</name>
+      <size>12</size>
+   </internalDataColumns>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName></sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

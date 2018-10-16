@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MySuite" time="53" tests="1" failures="0" errors="0">
+   <testsuite name="MySuite" tests="1" failures="0" errors="0" time="53" timestamp="2018-10-04 13:43:00" hostname="Dell - RajasekharN" id="Test Suites/MySuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Work\\Projects\\Kraft\\Kraft_Sample\\Reports\\MySuite\\20181004_134257"/>
+         <property name="logFiles" value="C:\\Work\\Projects\\Kraft\\Kraft_Sample\\Reports\\MySuite\\20181004_134257\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell - RajasekharN"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="192.168.22.196"/>
+         <property name="sessionId" value="677428bf07ccd22c1445bf12546c37ca"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCases/TestCase1" classname="Test Cases/TestCases/TestCase1" status="PASSED">
+         <system-out><![CDATA[2018-10-04 13:43:01 - [TEST_CASE][PASSED] - Test Cases/TestCases/TestCase1: Test Cases/TestCases/TestCase1
+
+2018-10-04 13:43:01 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Component/OpenAppURL' successfully
+
+2018-10-04 13:43:01 - [TEST_CASE][PASSED] - Test Cases/Component/OpenAppURL: Test Cases/Component/OpenAppURL
+
+2018-10-04 13:43:01 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-04 13:43:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-04 13:43:07 - [TEST_STEP][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPressSpecial: com.kraft.compass.common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-04 13:43:08 - [MESSAGE][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-04 13:43:08 - [TEST_STEP][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPress: com.kraft.compass.common.RobotX.RoboKeyPress is PASSED
+
+2018-10-04 13:43:28 - [MESSAGE][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPress is PASSED
+
+2018-10-04 13:43:28 - [TEST_STEP][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPressSpecial: com.kraft.compass.common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-04 13:43:29 - [MESSAGE][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-04 13:43:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Component/OpenAppURL' successfully
+
+2018-10-04 13:43:29 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Component/Login' successfully
+
+2018-10-04 13:43:29 - [TEST_CASE][PASSED] - Test Cases/Component/Login: Test Cases/Component/Login
+
+2018-10-04 13:43:29 - [TEST_STEP][PASSED] - com.kraft.compass.common.General.sleep: com.kraft.compass.common.General.sleep is PASSED
+
+2018-10-04 13:43:39 - [MESSAGE][PASSED] - com.kraft.compass.common.General.sleep is PASSED
+
+2018-10-04 13:43:39 - [TEST_STEP][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPress: com.kraft.compass.common.RobotX.RoboKeyPress is PASSED
+
+2018-10-04 13:43:46 - [MESSAGE][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPress is PASSED
+
+2018-10-04 13:43:46 - [TEST_STEP][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPressSpecial: com.kraft.compass.common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-04 13:43:46 - [MESSAGE][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-04 13:43:46 - [TEST_STEP][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPress: com.kraft.compass.common.RobotX.RoboKeyPress is PASSED
+
+2018-10-04 13:43:52 - [MESSAGE][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPress is PASSED
+
+2018-10-04 13:43:52 - [TEST_STEP][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPressSpecial: com.kraft.compass.common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-04 13:43:53 - [MESSAGE][PASSED] - com.kraft.compass.common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-04 13:43:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Component/Login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-04 13:43:00 - [TEST_SUITE][PASSED] - MySuite: Test Cases/TestCases/TestCase1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

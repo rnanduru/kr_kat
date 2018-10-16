@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,,,2018-10-01 13:08:06,2018-10-01 13:08:07,1.954s,FAILED
+,,,,,,
+Test Cases/Components/Common/LoginCompass,,,2018-10-01 13:08:06,2018-10-01 13:08:07,1.178s,FAILED
+openBrowser,,,2018-10-01 13:08:07,2018-10-01 13:08:07,0.815s,FAILED

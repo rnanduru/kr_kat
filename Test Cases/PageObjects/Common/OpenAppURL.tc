@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>to open any url in a given browser</description>
+   <name>OpenAppURL</name>
+   <tag>open url application</tag>
+   <comment></comment>
+   <testCaseGuid>535eacfa-b80e-47c4-ace0-16a20efd6590</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>dfdcd808-3534-40bd-8e23-29fe793e2d56</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+</TestCaseEntity>

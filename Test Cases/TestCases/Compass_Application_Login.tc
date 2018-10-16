@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Compass_Application_Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c2a1c742-7ff4-470f-b80a-953215849d4f</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('TestData/TestCaseData')</defaultValue>
+      <description></description>
+      <id>d3285cfb-d639-4140-926d-a3eb93570fc8</id>
+      <masked>false</masked>
+      <name>DataFile</name>
+   </variable>
+   <variable>
+      <defaultValue>'TD1'</defaultValue>
+      <description></description>
+      <id>33013102-362b-4058-b8ae-49a6624a8930</id>
+      <masked>false</masked>
+      <name>DataID</name>
+   </variable>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>044ce948-a41d-4437-9264-45467a46120c</id>
+      <masked>false</masked>
+      <name>DataSet</name>
+   </variable>
+</TestCaseEntity>

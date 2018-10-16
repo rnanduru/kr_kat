@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Smoke_Test_1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41c33cc3-4edf-47ba-94ba-d5c8e0476867</testCaseGuid>
+   <variable>
+      <defaultValue>'1002'</defaultValue>
+      <description></description>
+      <id>c68ddad9-1a10-4541-95fa-5658ddac1881</id>
+      <masked>false</masked>
+      <name>DID</name>
+   </variable>
+</TestCaseEntity>

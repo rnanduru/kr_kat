@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>login to apps</description>
+   <name>LoginCompass</name>
+   <tag>login apps</tag>
+   <comment></comment>
+   <testCaseGuid>51447341-bb7e-47b9-a713-7ee51f83eda7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ba35ad7f-2b87-46d1-af93-6a242714db3d</id>
+      <masked>false</masked>
+      <name>DID</name>
+   </variable>
+</TestCaseEntity>
