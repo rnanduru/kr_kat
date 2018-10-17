@@ -6,7 +6,7 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://compassDev.myit.kraftheinz.com'</initValue>
+      <initValue>'https://compassreg.myit.kraftheinz.com'</initValue>
       <name>app_url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

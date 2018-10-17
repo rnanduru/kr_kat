@@ -46,9 +46,8 @@ public class GlobalVariable {
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['app_url' : 'https://compassDev.myit.kraftheinz.com', 'username' : 'secregst376', 'password' : 'Kraft@2016', 'landingpagetitle' : 'KraftHeinz Compass', 'multivalueseperator' : ';', 'defaultdateformat' : 'dd/MM/yyyy'])
+        allVariables.put('default', ['app_url' : 'https://compassreg.myit.kraftheinz.com', 'username' : 'secregst376', 'password' : 'Kraft@2016', 'landingpagetitle' : 'KraftHeinz Compass', 'multivalueseperator' : ';', 'defaultdateformat' : 'dd/MM/yyyy'])
         allVariables.put('prahlada', allVariables['default'] + ['app_url' : 'https://compassDev.myit.kraftheinz.com', 'username' : 'secregst376', 'password' : 'Kraft@2016', 'landingpagetitle' : 'KraftHeinz Compass', 'multivalueseperator' : ';'])
-        allVariables.put('prashanth', allVariables['default'] + [:])
         
         String profileName = RunConfiguration.getExecutionProfile()
         

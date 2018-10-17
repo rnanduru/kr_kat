@@ -13,7 +13,5 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('PageObjects/Login/LoginCompass'), [('DID') : 1], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('PageObjects/Dashboard/Dashboard_Header'), [('DID') : '1002'], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('PageObjects/Dashboard/Dashboard_Header'), [('DID') : '1'], FailureHandling.STOP_ON_FAILURE)
 

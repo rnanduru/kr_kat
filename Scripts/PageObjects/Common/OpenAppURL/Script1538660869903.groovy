@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-CustomKeywords.'com.kraft.compass.common.RobotX.RoboKeyPressSpecial'('F6')
+CustomKeywords.'common.RobotX.RoboKeyPressSpecial'('F6')
 
-CustomKeywords.'com.kraft.compass.common.RobotX.RoboKeyPress'(GlobalVariable.app_url)
+CustomKeywords.'common.RobotX.RoboKeyPress'(GlobalVariable.app_url)
 
-CustomKeywords.'com.kraft.compass.common.RobotX.RoboKeyPressSpecial'('ENTER')
+CustomKeywords.'common.RobotX.RoboKeyPressSpecial'('ENTER')
 

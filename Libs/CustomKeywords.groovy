@@ -14,40 +14,64 @@ import com.kms.katalon.core.testcase.TestCase
 import com.kms.katalon.core.testdata.TestData
 
 
-def static "com.kraft.compass.common.RobotX.RoboKeyPress"(
+def static "common.RobotX.RoboKeyPress"(
     	String data	) {
-    (new com.kraft.compass.common.RobotX()).RoboKeyPress(
+    (new common.RobotX()).RoboKeyPress(
         	data)
 }
 
-def static "com.kraft.compass.common.RobotX.WebUISendKeys"(
+def static "common.RobotX.WebUISendKeys"(
     	TestObject t	
      , 	String data	) {
-    (new com.kraft.compass.common.RobotX()).WebUISendKeys(
+    (new common.RobotX()).WebUISendKeys(
         	t
          , 	data)
 }
 
-def static "com.kraft.compass.common.RobotX.RoboKeyPressSpecial"(
+def static "common.RobotX.RoboKeyPressSpecial"(
     	String data	) {
-    (new com.kraft.compass.common.RobotX()).RoboKeyPressSpecial(
+    (new common.RobotX()).RoboKeyPressSpecial(
         	data)
 }
 
-def static "com.kraft.compass.common.RobotX.type"(
+def static "common.RobotX.type"(
     	CharSequence characters	) {
-    (new com.kraft.compass.common.RobotX()).type(
+    (new common.RobotX()).type(
         	characters)
 }
 
-def static "com.kraft.compass.common.General.sleep"(
+def static "common.General.sleep"(
     	int timeInSec	) {
-    (new com.kraft.compass.common.General()).sleep(
+    (new common.General()).sleep(
         	timeInSec)
 }
 
-def static "com.kraft.compass.common.General.bindVariables"() {
-    (new com.kraft.compass.common.General()).bindVariables()
+def static "common.General.selectListBox"(
+    	TestObject xPath	
+     , 	Object value	) {
+    (new common.General()).selectListBox(
+        	xPath
+         , 	value)
+}
+
+def static "common.General.dialogBoxAction"(
+    	Object dialogTextContains	
+     , 	Object action	) {
+    (new common.General()).dialogBoxAction(
+        	dialogTextContains
+         , 	action)
+}
+
+def static "common.General.createObject"(
+    	Object xPath	) {
+    (new common.General()).createObject(
+        	xPath)
+}
+
+def static "common.General.clickNavigation"(
+    	Object navigation	) {
+    (new common.General()).clickNavigation(
+        	navigation)
 }
 
 def static "framework.Framework.CallPageObject"(

@@ -17,25 +17,21 @@ TestData td = findTestData('TestData/Login')
 
 Map Iterator = CustomKeywords.'framework.Framework.GetTestDataMap'(td, DID.toString())
 
-for(Iteration in Iterator){
-	RunTest(Iteration.getValue())
+for (def Iteration : Iterator) {
+    RunTest(Iteration.getValue())
 }
 
 def RunTest(Map DataMap) {
-	
-	CustomKeywords.'framework.Framework.SetValue'(DataMap.get('ROLE'), "testRole1")
-	
-	/*println CustomKeywords.'framework.Framework.GetValue'(DataMap.get('RECEP'))
-	
-    CustomKeywords.'com.kraft.compass.common.General.sleep'(10)
-	
-    CustomKeywords.'com.kraft.compass.common.RobotX.RoboKeyPress'()
+    CustomKeywords.'common.General.sleep'(10)
 
-    CustomKeywords.'com.kraft.compass.common.RobotX.RoboKeyPressSpecial'(DataMap.get('KHPG_PPG'))
-	
-    CustomKeywords.'com.kraft.compass.common.RobotX.RoboKeyPress'(password)
+    CustomKeywords.'common.RobotX.RoboKeyPress'(DataMap.get('USERNAME'))
 
-    CustomKeywords.'com.kraft.compass.common.RobotX.RoboKeyPressSpecial'('ENTER')*/
-	
+    CustomKeywords.'common.RobotX.RoboKeyPressSpecial'('TAB')
+
+    CustomKeywords.'common.RobotX.RoboKeyPress'(DataMap.get('PASSWORD'))
+
+    CustomKeywords.'common.RobotX.RoboKeyPressSpecial'('ENTER')
+
+    CustomKeywords.'common.General.sleep'(40)
 }
 

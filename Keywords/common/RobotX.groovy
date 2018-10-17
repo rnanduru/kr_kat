@@ -1,4 +1,4 @@
-package com.kraft.compass.common
+package common
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -30,7 +30,7 @@ public class RobotX {
 	@Keyword
 	def RoboKeyPress(String data){
 		robot = new Robot();
-		Thread.sleep(1000);
+		Thread.sleep(100);
 		type(data);
 	}
 	@Keyword
@@ -42,7 +42,7 @@ public class RobotX {
 	@Keyword
 	def RoboKeyPressSpecial(String data){
 		robot = new Robot();
-		Thread.sleep(500);
+		Thread.sleep(100);
 		if (data.equalsIgnoreCase("f6"))
 			robot.keyPress(KeyEvent.VK_F6)
 		else if(data.equalsIgnoreCase("ENTER"))
@@ -59,7 +59,7 @@ public class RobotX {
 			char character = characters.charAt(i);
 			println "The Character is "+character
 			type(character);
-			Thread.sleep(500);
+			Thread.sleep(100);
 		}
 	}
 	def doType(int[] keyCodes, int offset, int length) {
