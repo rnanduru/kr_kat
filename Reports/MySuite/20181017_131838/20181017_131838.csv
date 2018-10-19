@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-17 13:18:40,2018-10-17 13:20:01,1m - 21.164s,PASSED
+,,,,,,
+Test Cases/PageObjects/Common/OpenAppURL,Chrome 69.0.3497.100,to open any url in a given browser,2018-10-17 13:18:40,2018-10-17 13:18:49,8.470s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-17 13:18:41,2018-10-17 13:18:45,3.729s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-17 13:18:45,2018-10-17 13:18:45,0.139s,PASSED
+common.RobotX.RoboKeyPress,Chrome 69.0.3497.100,,2018-10-17 13:18:45,2018-10-17 13:18:49,4.111s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-17 13:18:49,2018-10-17 13:18:49,0.102s,PASSED
+,,,,,,
+Test Cases/TestCases/Login,Chrome 69.0.3497.100,,2018-10-17 13:18:49,2018-10-17 13:19:44,55.100s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 13:18:49,2018-10-17 13:19:44,54.757s,PASSED
+,,,,,,
+Test Cases/TestCases/Smoke_Test_1,Chrome 69.0.3497.100,,2018-10-17 13:19:44,2018-10-17 13:20:01,17.209s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 13:19:44,2018-10-17 13:20:01,16.882s,PASSED

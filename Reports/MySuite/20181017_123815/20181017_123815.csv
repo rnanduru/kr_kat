@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-17 12:38:17,2018-10-17 12:38:57,39.809s,ERROR
+,,,,,,
+Test Cases/PageObjects/Common/OpenAppURL,Chrome 69.0.3497.100,to open any url in a given browser,2018-10-17 12:38:17,2018-10-17 12:38:43,25.389s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-17 12:38:18,2018-10-17 12:38:21,3.683s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-17 12:38:21,2018-10-17 12:38:22,0.575s,PASSED
+common.RobotX.RoboKeyPress,Chrome 69.0.3497.100,,2018-10-17 12:38:22,2018-10-17 12:38:42,20.212s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-17 12:38:42,2018-10-17 12:38:43,0.512s,PASSED
+,,,,,,
+Test Cases/TestCases/Login,Chrome 69.0.3497.100,,2018-10-17 12:38:43,2018-10-17 12:38:55,12.539s,ERROR
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 12:38:43,2018-10-17 12:38:55,12.243s,FAILED
+,,,,,,
+Test Cases/PageObjects/Dashboard/Dashboard_Header,Chrome 69.0.3497.100,,2018-10-17 12:38:55,2018-10-17 12:38:56,0.578s,ERROR
+Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Dashboard),Chrome 69.0.3497.100,,2018-10-17 12:38:56,2018-10-17 12:38:56,0.107s,PASSED
+"Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString())",Chrome 69.0.3497.100,,2018-10-17 12:38:56,2018-10-17 12:38:56,0.002s,PASSED

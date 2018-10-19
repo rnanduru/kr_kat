@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-17 14:35:08,2018-10-17 14:40:37,5m - 29.509s,ERROR
+,,,,,,
+Test Cases/TestCases/Compass_Application_Login,Chrome 69.0.3497.100,,2018-10-17 14:35:08,2018-10-17 14:35:17,8.790s,ERROR
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 14:35:09,2018-10-17 14:35:17,8.303s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 14:35:17,2018-10-17 14:35:17,0.010s,PASSED
+,,,,,,
+Test Cases/TestCases/Smoke_Test_1,Chrome 69.0.3497.100,,2018-10-17 14:35:17,2018-10-17 14:40:37,5m - 20.340s,FAILED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 14:35:17,2018-10-17 14:40:37,5m - 20.061s,FAILED

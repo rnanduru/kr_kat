@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-17 16:06:42,2018-10-17 16:06:50,8.380s,ERROR
+,,,,,,
+Test Cases/TestCases/Hamburgbutton,Chrome 69.0.3497.100,click hamburg button,2018-10-17 16:06:42,2018-10-17 16:06:49,6.774s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 16:06:42,2018-10-17 16:06:49,6.454s,PASSED
+,,,,,,
+Test Cases/TestCases/Accountplaner_click,Chrome 69.0.3497.100,click accountplanerbutton,2018-10-17 16:06:49,2018-10-17 16:06:49,0.707s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 16:06:49,2018-10-17 16:06:49,0.380s,PASSED
+,,,,,,
+Test Cases/TestCases/Accountplaner_DBB,Chrome 69.0.3497.100,,2018-10-17 16:06:49,2018-10-17 16:06:50,0.529s,ERROR
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 16:06:50,2018-10-17 16:06:50,0.285s,FAILED

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MySuite" time="53" tests="3" failures="0" errors="0">
+   <testsuite name="MySuite" tests="3" failures="0" errors="0" time="53" timestamp="2018-10-17 12:55:48" hostname="DELL - 10.64.0.19" id="Test Suites/MySuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Reports\\MySuite\\20181017_125546"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Reports\\MySuite\\20181017_125546\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - 10.64.0.19"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.64.0.19"/>
+         <property name="sessionId" value="3e16ca29be980ca5211a48516f04470a"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PageObjects/Common/OpenAppURL" classname="Test Cases/PageObjects/Common/OpenAppURL" status="PASSED">
+         <system-out><![CDATA[2018-10-17 12:55:48 - [TEST_CASE][PASSED] - Test Cases/PageObjects/Common/OpenAppURL: Test Cases/PageObjects/Common/OpenAppURL
+
+2018-10-17 12:55:49 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-17 12:55:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-17 12:55:52 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPressSpecial: common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-17 12:55:53 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-17 12:55:53 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPress: common.RobotX.RoboKeyPress is PASSED
+
+2018-10-17 12:56:13 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPress is PASSED
+
+2018-10-17 12:56:13 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPressSpecial: common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-17 12:56:14 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPressSpecial is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCases/Login" classname="Test Cases/TestCases/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-17 12:56:14 - [TEST_CASE][PASSED] - Test Cases/TestCases/Login: Test Cases/TestCases/Login
+
+2018-10-17 12:56:14 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/Login/LoginCompass' successfully
+
+2018-10-17 12:56:14 - [TEST_CASE][PASSED] - Test Cases/PageObjects/Login/LoginCompass: Test Cases/PageObjects/Login/LoginCompass
+
+2018-10-17 12:56:15 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Login): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'LOGIN'
+
+2018-10-17 12:56:16 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-17 12:56:16 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-17 12:56:16 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-17 12:56:16 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-17 12:56:16 - [TEST_STEP][PASSED] - common.General.sleep: common.General.sleep is PASSED
+
+2018-10-17 12:56:26 - [MESSAGE][PASSED] - common.General.sleep is PASSED
+
+2018-10-17 12:56:26 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPress: common.RobotX.RoboKeyPress is PASSED
+
+2018-10-17 12:56:33 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPress is PASSED
+
+2018-10-17 12:56:33 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPressSpecial: common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-17 12:56:33 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-17 12:56:33 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPress: common.RobotX.RoboKeyPress is PASSED
+
+2018-10-17 12:56:39 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPress is PASSED
+
+2018-10-17 12:56:39 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPressSpecial: common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-17 12:56:40 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-17 12:56:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/Login/LoginCompass' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/PageObjects/Dashboard/Dashboard_Header" classname="Test Cases/PageObjects/Dashboard/Dashboard_Header" status="PASSED">
+         <system-out><![CDATA[2018-10-17 12:56:40 - [TEST_CASE][PASSED] - Test Cases/PageObjects/Dashboard/Dashboard_Header: Test Cases/PageObjects/Dashboard/Dashboard_Header
+
+2018-10-17 12:56:40 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Dashboard): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'DASHBRD'
+
+2018-10-17 12:56:40 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-17 12:56:40 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-17 12:56:40 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-17 12:55:48 - [TEST_SUITE][PASSED] - MySuite: Test Cases/PageObjects/Dashboard/Dashboard_Header]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

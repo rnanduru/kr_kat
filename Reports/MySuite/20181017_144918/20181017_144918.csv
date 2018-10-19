@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-17 14:49:20,2018-10-17 14:50:41,1m - 20.418s,ERROR
+,,,,,,
+Test Cases/TestCases/Compass_Application_Login,Chrome 69.0.3497.100,,2018-10-17 14:49:21,2018-10-17 14:49:29,8.539s,ERROR
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 14:49:21,2018-10-17 14:49:29,8.109s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 14:49:29,2018-10-17 14:49:29,0.016s,PASSED
+,,,,,,
+Test Cases/TestCases/Login,Chrome 69.0.3497.100,,2018-10-17 14:49:29,2018-10-17 14:50:23,54.074s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 14:49:29,2018-10-17 14:50:23,53.788s,PASSED
+,,,,,,
+Test Cases/TestCases/Smoke_Test_1,Chrome 69.0.3497.100,,2018-10-17 14:50:23,2018-10-17 14:50:40,16.759s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 14:50:23,2018-10-17 14:50:40,16.554s,PASSED
+,,,,,,
+Test Cases/TestCases/Hamburgbutton,Chrome 69.0.3497.100,click hamburg button,2018-10-17 14:50:40,2018-10-17 14:50:41,0.641s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-17 14:50:40,2018-10-17 14:50:41,0.357s,PASSED

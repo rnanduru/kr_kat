@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>click Hamburg button</description>
+   <name>Hamburg_Click</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a96183bd-a4ff-4b4f-bba2-5117bf252afc</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9e6896e4-b79c-4ae5-9047-351990a91d19</id>
+      <masked>false</masked>
+      <name>DID</name>
+   </variable>
+</TestCaseEntity>

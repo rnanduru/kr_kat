@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-17 12:34:14,2018-10-17 12:34:46,32.030s,ERROR
+,,,,,,
+Test Cases/PageObjects/Common/OpenAppURL,Chrome 69.0.3497.100,to open any url in a given browser,2018-10-17 12:34:14,2018-10-17 12:34:42,27.912s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-17 12:34:15,2018-10-17 12:34:21,6.226s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-17 12:34:21,2018-10-17 12:34:21,0.631s,PASSED
+common.RobotX.RoboKeyPress,Chrome 69.0.3497.100,,2018-10-17 12:34:21,2018-10-17 12:34:42,20.179s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-17 12:34:42,2018-10-17 12:34:42,0.511s,PASSED
+,,,,,,
+Test Cases/PageObjects/Login/LoginCompass,Chrome 69.0.3497.100,login to apps,2018-10-17 12:34:42,2018-10-17 12:34:44,2.054s,PASSED
+Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Login),Chrome 69.0.3497.100,,2018-10-17 12:34:43,2018-10-17 12:34:44,1.501s,PASSED
+"Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString())",Chrome 69.0.3497.100,,2018-10-17 12:34:44,2018-10-17 12:34:44,0.125s,PASSED
+Statement - For (def Iteration : Iterator),Chrome 69.0.3497.100,,2018-10-17 12:34:44,2018-10-17 12:34:44,0.012s,PASSED
+,,,,,,
+Test Cases/PageObjects/Dashboard/Dashboard_Header,Chrome 69.0.3497.100,,2018-10-17 12:34:44,2018-10-17 12:34:45,0.525s,ERROR
+Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Dashboard),Chrome 69.0.3497.100,,2018-10-17 12:34:45,2018-10-17 12:34:45,0.105s,PASSED
+"Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString())",Chrome 69.0.3497.100,,2018-10-17 12:34:45,2018-10-17 12:34:45,0.002s,PASSED
