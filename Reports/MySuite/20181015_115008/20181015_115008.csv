@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-MySuite,,,2018-10-15 11:50:11,2018-10-15 11:50:24,13.625s,ERROR
-,,,,,,
-Test Cases/TestCases/Smoke_Test_1,,,2018-10-15 11:50:11,2018-10-15 11:50:24,13.128s,ERROR
-callTestCase,,,2018-10-15 11:50:11,2018-10-15 11:50:24,12.692s,FAILED

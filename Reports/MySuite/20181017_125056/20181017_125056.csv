@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-MySuite,,,2018-10-17 12:50:58,2018-10-17 12:50:59,1.666s,ERROR
-,,,,,,
-Test Cases/PageObjects/Dashboard/Dashboard_Header,,,2018-10-17 12:50:58,2018-10-17 12:50:59,1.275s,ERROR
-Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Dashboard),,,2018-10-17 12:50:59,2018-10-17 12:50:59,0.799s,PASSED
-"Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString())",,,2018-10-17 12:50:59,2018-10-17 12:50:59,0.005s,PASSED

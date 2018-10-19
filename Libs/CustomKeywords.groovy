@@ -3,9 +3,9 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-import java.lang.String
-
 import com.kms.katalon.core.testobject.TestObject
+
+import java.lang.String
 
 import java.lang.CharSequence
 
@@ -13,32 +13,6 @@ import com.kms.katalon.core.testcase.TestCase
 
 import com.kms.katalon.core.testdata.TestData
 
-
-def static "common.RobotX.RoboKeyPress"(
-    	String data	) {
-    (new common.RobotX()).RoboKeyPress(
-        	data)
-}
-
-def static "common.RobotX.WebUISendKeys"(
-    	TestObject t	
-     , 	String data	) {
-    (new common.RobotX()).WebUISendKeys(
-        	t
-         , 	data)
-}
-
-def static "common.RobotX.RoboKeyPressSpecial"(
-    	String data	) {
-    (new common.RobotX()).RoboKeyPressSpecial(
-        	data)
-}
-
-def static "common.RobotX.type"(
-    	CharSequence characters	) {
-    (new common.RobotX()).type(
-        	characters)
-}
 
 def static "common.General.sleep"(
     	int timeInSec	) {
@@ -72,6 +46,32 @@ def static "common.General.clickNavigation"(
     	Object navigation	) {
     (new common.General()).clickNavigation(
         	navigation)
+}
+
+def static "common.RobotX.RoboKeyPress"(
+    	String data	) {
+    (new common.RobotX()).RoboKeyPress(
+        	data)
+}
+
+def static "common.RobotX.WebUISendKeys"(
+    	TestObject t	
+     , 	String data	) {
+    (new common.RobotX()).WebUISendKeys(
+        	t
+         , 	data)
+}
+
+def static "common.RobotX.RoboKeyPressSpecial"(
+    	String data	) {
+    (new common.RobotX()).RoboKeyPressSpecial(
+        	data)
+}
+
+def static "common.RobotX.type"(
+    	CharSequence characters	) {
+    (new common.RobotX()).type(
+        	characters)
 }
 
 def static "framework.Framework.CallPageObject"(

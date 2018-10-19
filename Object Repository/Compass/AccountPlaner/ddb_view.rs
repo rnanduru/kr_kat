@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ddb_customer_plan</name>
+   <name>ddb_view</name>
    <tag></tag>
-   <elementGuidId>55718500-db02-4272-95e6-1eb6e2d12d1c</elementGuidId>
+   <elementGuidId>fd058cc0-2ab0-45d5-9684-e72d18a348cb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//compass-plan-selection-header-component/div[2]/div[2]/span[2]/kendo-dropdownlist/span[@role='listbox']//span[@class='k-i-arrow-s k-icon']</value>
+         <value>//app-root/div/div[@class='row']/div/accounts-planner[@class='ng-star-inserted']/div[2]/div[1]/div/kendo-dropdownlist[2]/span[@role='listbox']//span[@class='k-i-arrow-s k-icon']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//compass-plan-selection-header-component/div[2]/div[2]/span[2]/kendo-dropdownlist/span[@role='listbox']//span[@class='k-i-arrow-s k-icon']</value>
+      <value>//app-root/div/div[@class='row']/div/accounts-planner[@class='ng-star-inserted']/div[2]/div[1]/div/kendo-dropdownlist[2]/span[@role='listbox']//span[@class='k-i-arrow-s k-icon']</value>
    </webElementProperties>
 </WebElementEntity>
