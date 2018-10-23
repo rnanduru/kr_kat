@@ -82,7 +82,7 @@ public class RobotX {
 			case 'f': doType(KeyEvent.VK_F); break;
 			case 'g': doType(KeyEvent.VK_G); break;
 			case 'h': doType(KeyEvent.VK_H); break;
-			case 'i': doType(KeyEvent.VK_I); break;s
+			case 'i': doType(KeyEvent.VK_I); break;
 			case 'j': doType(KeyEvent.VK_J); break;
 			case 'k': doType(KeyEvent.VK_K); break;
 			case 'l': doType(KeyEvent.VK_L); break;

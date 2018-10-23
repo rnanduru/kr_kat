@@ -23,12 +23,16 @@ for (def Iteration : Iterator) {
 }
 
 def RunTest(Map DataMap) {
+    
+	WebUI.delay(3)
+
     CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/Dashboard/ddb_plan_year'), DataMap.get('PLAN_YEAR'))
 
     CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/Dashboard/ddb_customer_plan'), DataMap.get('CUSTOMER_PLAN'))
 
     CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/Dashboard/ddb_category'), DataMap.get('CATEGORY'))
+
+    CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/Dashboard/ddb_Customer_AreaName'), DataMap.get('CUSTOMER'))
 	
-	CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/Dashboard/ddb_Customer_AreaName'), DataMap.get('CUSTOMER'))
 }
 

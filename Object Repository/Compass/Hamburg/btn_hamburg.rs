@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//div[@id='wrapper']/div[1]/div/div[1]//i</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-19T18:04:30</date>
+  <millis>1539952470948</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/MySuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">MySuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/MySuite</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:30</date>
+  <millis>1539952470969</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;DELL - 10.64.0.227&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">DELL - 10.64.0.227</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:30</date>
+  <millis>1539952470973</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:30</date>
+  <millis>1539952470974</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.64.0.227&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.64.0.227</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:30</date>
+  <millis>1539952470975</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.7.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.7.1.1</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:31</date>
+  <millis>1539952471331</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TestCases/Login</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TestCases/Login</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TestCases/Login</property>
+  <property name="source">C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Test Cases\\TestCases\\Login.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:31</date>
+  <millis>1539952471368</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:31</date>
+  <millis>1539952471663</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:31</date>
+  <millis>1539952471718</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking called Test Case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:31</date>
+  <millis>1539952471720</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting to call Test Case &amp;apos;Test Cases/PageObjects/Login/LoginCompass&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:31</date>
+  <millis>1539952471773</millis>
+  <sequence>10</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/PageObjects/Login/LoginCompass</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/PageObjects/Login/LoginCompass</property>
+  <property name="description">login to apps</property>
+  <property name="id">Test Cases/PageObjects/Login/LoginCompass</property>
+  <property name="source">C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Test Cases\\PageObjects\\Login\\LoginCompass.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:31</date>
+  <millis>1539952471794</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:31</date>
+  <millis>1539952471796</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;DID&amp;apos; is set to 1</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:32</date>
+  <millis>1539952472013</millis>
+  <sequence>13</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Login)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:32</date>
+  <millis>1539952472020</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking test data id</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:32</date>
+  <millis>1539952472024</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData/Login&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:32</date>
+  <millis>1539952472031</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:32</date>
+  <millis>1539952472035</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Data Files\\TestData\\TestDataFile.xlsx&amp;apos; and sheet name &amp;apos;LOGIN&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:32</date>
+  <millis>1539952472920</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Login)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:32</date>
+  <millis>1539952472922</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:33</date>
+  <millis>1539952473034</millis>
+  <sequence>20</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>framework.Framework.GetTestDataMap is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:33</date>
+  <millis>1539952473036</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:33</date>
+  <millis>1539952473037</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - For (def Iteration : Iterator)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:33</date>
+  <millis>1539952473040</millis>
+  <sequence>23</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - RunTest(Iteration.getValue())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-19T18:04:33</date>
+  <millis>1539952473054</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - RunTest(Iteration.getValue())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:33</date>
+  <millis>1539952473054</millis>
+  <sequence>25</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - For (def Iteration : Iterator)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-19T18:04:33</date>
+  <millis>1539952473054</millis>
+  <sequence>26</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.General.sleep</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">1</property>
+</record>

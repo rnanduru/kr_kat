@@ -19,6 +19,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.text.DateFormat
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import internal.GlobalVariable
@@ -57,7 +58,7 @@ public class Framework {
 				String[] cols = td.getColumnNames()
 
 				for(int col=1;col<cols.length;col++) {
-					if(td.getValue(cols[col], i).toString() != "") {
+					//if(td.getValue(cols[col], i).toString() != "") {
 						if(mp1.containsKey(cols[col])){
 							theValue = mp1.get(cols[col])+GlobalVariable.multivalueseperator+td.getValue(cols[col], i).toString()
 						}
@@ -66,7 +67,7 @@ public class Framework {
 						println "theValue :"+theValue
 						theValue = evalString(theValue)
 						mp1.put(cols[col],theValue)
-					}
+					//}
 				}
 				mp.put(indexI, mp1)
 			}
@@ -104,6 +105,8 @@ public class Framework {
 				}
 				data = data1
 			}
+			if(data.equalsIgnoreCase(""))
+				data = "<null>"
 		}
 		return data
 	}
@@ -116,6 +119,13 @@ public class Framework {
 		String newDate = sdf.format(c.getTime());
 		//Displaying the new Date after addition of Days
 		return newDate
+	}
+	def FormatDate(String date,String actualFormat,String expFormat){
+		DateFormat originalFormat = new SimpleDateFormat(actualFormat, Locale.ENGLISH);
+		DateFormat targetFormat = new SimpleDateFormat(expFormat);
+		Date date1 = originalFormat.parse(date);
+		String formattedDate = targetFormat.format(date1);
+		return formattedDate
 	}
 	@Keyword
 	def GetValue(String data1){

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-22 12:13:21,2018-10-22 12:15:49,2m - 27.609s,FAILED
+,,,,,,
+Test Cases/PageObjects/Common/OpenAppURL,Chrome 69.0.3497.100,to open any url in a given browser,2018-10-22 12:13:22,2018-10-22 12:13:32,10.327s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-22 12:13:22,2018-10-22 12:13:28,5.405s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-22 12:13:28,2018-10-22 12:13:28,0.151s,PASSED
+common.RobotX.RoboKeyPress,Chrome 69.0.3497.100,,2018-10-22 12:13:28,2018-10-22 12:13:32,4.251s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-22 12:13:32,2018-10-22 12:13:32,0.109s,PASSED
+,,,,,,
+Test Cases/TestCases/Login,Chrome 69.0.3497.100,,2018-10-22 12:13:32,2018-10-22 12:14:57,1m - 25.355s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-22 12:13:32,2018-10-22 12:14:57,1m - 24.931s,PASSED
+,,,,,,
+Test Cases/TestCases/Dashboard,Chrome 69.0.3497.100,,2018-10-22 12:14:57,2018-10-22 12:15:40,42.518s,FAILED
+callTestCase,Chrome 69.0.3497.100,,2018-10-22 12:14:58,2018-10-22 12:15:40,42.096s,FAILED
+,,,,,,
+Test Cases/TestCases/35722,Chrome 69.0.3497.100,,2018-10-22 12:15:40,2018-10-22 12:15:49,8.663s,FAILED
+waitForJQueryLoad,Chrome 69.0.3497.100,,2018-10-22 12:15:41,2018-10-22 12:15:49,8.079s,FAILED

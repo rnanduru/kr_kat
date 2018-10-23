@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//app-root/div/div[@class='row']/div/accounts-planner[@class='ng-star-inserted']/div[2]/div[1]/div/kendo-dropdownlist[2]/span[@role='listbox']//span[@class='k-i-arrow-s k-icon']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 70.0.3538.67,,2018-10-23 20:01:48,2018-10-23 20:03:17,1m - 29.168s,FAILED
+,,,,,,
+Test Cases/TestCases/35722,Chrome 70.0.3538.67,,2018-10-23 20:01:48,2018-10-23 20:03:17,1m - 28.787s,FAILED
+waitForJQueryLoad,Chrome 70.0.3538.67,,2018-10-23 20:01:49,2018-10-23 20:01:50,1.443s,PASSED
+callTestCase,Chrome 70.0.3538.67,,2018-10-23 20:01:50,2018-10-23 20:01:50,0.000s,NOT_RUN
+callTestCase,Chrome 70.0.3538.67,,2018-10-23 20:01:50,2018-10-23 20:01:50,0.000s,NOT_RUN
+callTestCase,Chrome 70.0.3538.67,,2018-10-23 20:01:50,2018-10-23 20:01:50,0.000s,NOT_RUN
+callTestCase,Chrome 70.0.3538.67,,2018-10-23 20:01:50,2018-10-23 20:03:17,1m - 26.958s,FAILED

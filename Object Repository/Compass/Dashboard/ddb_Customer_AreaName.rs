@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//compass-plan-selection-header-component/div[2]/div[2]/span[4]/kendo-dropdownlist/span[@role='listbox']//span[@class='k-i-arrow-s k-icon']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>AccountPlanner_ProductCost</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>c549a7a9-5ef4-48d0-9b2e-98c9c3ff515b</dataFileGUID>
+   <dataSourceUrl>C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>ACC_PLANNER_PROD_COST</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

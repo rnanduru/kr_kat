@@ -13,7 +13,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('PageObjects/Common/Hamburg_Click'), [('DID') : 1], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForJQueryLoad(30)
 
-WebUI.callTestCase(findTestCase('PageObjects/AccountPlanner/AccountPlanner_Header'), [('DID') : 1], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('PageObjects/Common/Hamburg_Click'), [('DID') : '1'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('PageObjects/AccountPlanner/AccountPlanner_Header'), [('DID') : '1'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('PageObjects/AccountPlanner/AccountPlanner_Product_Selection'), [('DID') : '1'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table'), [('DID') : '1'], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,,,2018-10-23 21:27:31,2018-10-23 21:27:32,1.241s,FAILED
+,,,,,,
+Test Cases/TestCases/35722,,,2018-10-23 21:27:31,2018-10-23 21:27:32,0.800s,FAILED
+waitForJQueryLoad,,,2018-10-23 21:27:31,2018-10-23 21:27:32,0.458s,FAILED

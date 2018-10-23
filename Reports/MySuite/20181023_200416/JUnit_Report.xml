@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MySuite" time="76" tests="1" failures="0" errors="0">
+   <testsuite name="MySuite" tests="1" failures="0" errors="0" time="76" timestamp="2018-10-23 20:04:19" hostname="DELL - 10.64.1.219" id="Test Suites/MySuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Reports\\MySuite\\20181023_200416"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Reports\\MySuite\\20181023_200416\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - 10.64.1.219"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.67"/>
+         <property name="hostAddress" value="10.64.1.219"/>
+         <property name="sessionId" value="c2bd5ea2092a6101c8bcb61be635adfb"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCases/35722" classname="Test Cases/TestCases/35722" status="PASSED">
+         <system-out><![CDATA[2018-10-23 20:04:19 - [TEST_CASE][PASSED] - Test Cases/TestCases/35722: Test Cases/TestCases/35722
+
+2018-10-23 20:04:19 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-10-23 20:04:21 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-10-23 20:04:21 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-10-23 20:04:21 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-10-23 20:04:21 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-10-23 20:04:21 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-10-23 20:04:21 - [TEST_STEP][NOT_RUN] - callTestCase: NOT_RUN: callTestCase
+
+2018-10-23 20:04:21 - [MESSAGE][NOT_RUN] - NOT_RUN: callTestCase
+
+2018-10-23 20:04:21 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table' successfully
+
+2018-10-23 20:04:21 - [TEST_CASE][PASSED] - Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table: Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table
+
+2018-10-23 20:04:21 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/AccountPlanner_ProductCost): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'ACC_PLANNER_PROD_COST'
+
+2018-10-23 20:04:22 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 20:04:22 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 20:04:22 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-23 20:04:22 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 20:04:22 - [TEST_STEP][PASSED] - common.General.buttonClick: common.General.buttonClick is PASSED
+
+2018-10-23 20:04:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/btn_add_new' is clicked on
+
+2018-10-23 20:04:22 - [MESSAGE][PASSED] - common.General.buttonClick is PASSED
+
+2018-10-23 20:04:22 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:22 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:22 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell: common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 20:04:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-23 20:04:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:29 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-10-23 20:04:29 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:29 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 20:04:29 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell: common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 20:04:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:30 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-23 20:04:31 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:35 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-10-23 20:04:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:36 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 20:04:36 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:36 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:37 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:04:37 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:37 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:37 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:38 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:04:38 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:38 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:38 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:39 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:04:39 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:39 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:39 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:39 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:04:39 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:39 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:40 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:40 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:04:40 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:40 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:41 - [MESSAGE][PASSED] - Text '2' is set on object ''
+
+2018-10-23 20:04:41 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:41 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:42 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:42 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:04:42 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:42 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.SelectValueInTableCell: null
+
+2018-10-23 20:04:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:58 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 20:04:58 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 20:04:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:58 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 20:04:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:04:59 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.SelectValueInTableCell is PASSED
+
+2018-10-23 20:04:59 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 20:04:59 - [TEST_STEP][PASSED] - common.General.buttonClick: common.General.buttonClick is PASSED
+
+2018-10-23 20:04:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/btn_add_new' is clicked on
+
+2018-10-23 20:04:59 - [MESSAGE][PASSED] - common.General.buttonClick is PASSED
+
+2018-10-23 20:04:59 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:59 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:04:59 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell: common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 20:04:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:04:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-23 20:05:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:05 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-10-23 20:05:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:05 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 20:05:05 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell: common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 20:05:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-23 20:05:08 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:12 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-10-23 20:05:12 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:12 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 20:05:12 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:13 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:05:13 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:13 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:14 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:14 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:05:14 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:14 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:15 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:05:15 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:15 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:16 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 20:05:16 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:16 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:17 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:17 - [MESSAGE][PASSED] - Text '3' is set on object ''
+
+2018-10-23 20:05:17 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:17 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:18 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:18 - [MESSAGE][PASSED] - Text '2' is set on object ''
+
+2018-10-23 20:05:18 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:18 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:19 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:19 - [MESSAGE][PASSED] - Text '4' is set on object ''
+
+2018-10-23 20:05:19 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 20:05:19 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.SelectValueInTableCell: common.AccountPlanner_Tabel.SelectValueInTableCell is PASSED
+
+2018-10-23 20:05:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 20:05:35 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 20:05:35 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 20:05:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:35 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 20:05:35 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 20:05:35 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.SelectValueInTableCell is PASSED
+
+2018-10-23 20:05:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-23 20:04:19 - [TEST_SUITE][PASSED] - MySuite: Test Cases/TestCases/35722]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

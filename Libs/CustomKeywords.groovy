@@ -3,9 +3,9 @@
  * This class is generated automatically by Katalon Studio and should not be modified or deleted.
  */
 
-import com.kms.katalon.core.testobject.TestObject
-
 import java.lang.String
+
+import com.kms.katalon.core.testobject.TestObject
 
 import java.lang.CharSequence
 
@@ -13,6 +13,32 @@ import com.kms.katalon.core.testcase.TestCase
 
 import com.kms.katalon.core.testdata.TestData
 
+
+def static "common.RobotX.RoboKeyPress"(
+    	String data	) {
+    (new common.RobotX()).RoboKeyPress(
+        	data)
+}
+
+def static "common.RobotX.WebUISendKeys"(
+    	TestObject t	
+     , 	String data	) {
+    (new common.RobotX()).WebUISendKeys(
+        	t
+         , 	data)
+}
+
+def static "common.RobotX.RoboKeyPressSpecial"(
+    	String data	) {
+    (new common.RobotX()).RoboKeyPressSpecial(
+        	data)
+}
+
+def static "common.RobotX.type"(
+    	CharSequence characters	) {
+    (new common.RobotX()).type(
+        	characters)
+}
 
 def static "common.General.sleep"(
     	int timeInSec	) {
@@ -48,30 +74,82 @@ def static "common.General.clickNavigation"(
         	navigation)
 }
 
-def static "common.RobotX.RoboKeyPress"(
-    	String data	) {
-    (new common.RobotX()).RoboKeyPress(
-        	data)
+def static "common.General.runJS"(
+    	TestObject to	
+     , 	String jsAction	
+     , 	int timeout	) {
+    (new common.General()).runJS(
+        	to
+         , 	jsAction
+         , 	timeout)
 }
 
-def static "common.RobotX.WebUISendKeys"(
-    	TestObject t	
+def static "common.General.buttonClick"(
+    	TestObject to	
      , 	String data	) {
-    (new common.RobotX()).WebUISendKeys(
-        	t
+    (new common.General()).buttonClick(
+        	to
          , 	data)
 }
 
-def static "common.RobotX.RoboKeyPressSpecial"(
-    	String data	) {
-    (new common.RobotX()).RoboKeyPressSpecial(
-        	data)
+def static "common.General.handleDialogBox"(
+    	TestObject To	
+     , 	String idDisplayed	
+     , 	String verifyText	
+     , 	String buttonToClick	) {
+    (new common.General()).handleDialogBox(
+        	To
+         , 	idDisplayed
+         , 	verifyText
+         , 	buttonToClick)
 }
 
-def static "common.RobotX.type"(
-    	CharSequence characters	) {
-    (new common.RobotX()).type(
-        	characters)
+def static "common.AccountPlanner_Tabel.EnterValueInTableCell"(
+    	TestObject tb	
+     , 	String rowNo	
+     , 	String column	
+     , 	String data	) {
+    (new common.AccountPlanner_Tabel()).EnterValueInTableCell(
+        	tb
+         , 	rowNo
+         , 	column
+         , 	data)
+}
+
+def static "common.AccountPlanner_Tabel.EnterDateInTableCell"(
+    	TestObject tb	
+     , 	String rowNo	
+     , 	String column	
+     , 	String date	) {
+    (new common.AccountPlanner_Tabel()).EnterDateInTableCell(
+        	tb
+         , 	rowNo
+         , 	column
+         , 	date)
+}
+
+def static "common.AccountPlanner_Tabel.SelectValueInTableCell"(
+    	TestObject tb	
+     , 	String rowNo	
+     , 	String column	
+     , 	String data	) {
+    (new common.AccountPlanner_Tabel()).SelectValueInTableCell(
+        	tb
+         , 	rowNo
+         , 	column
+         , 	data)
+}
+
+def static "common.AccountPlanner_Tabel.ActionOnTableCell"(
+    	TestObject tb	
+     , 	int rowNo	
+     , 	String column	
+     , 	String action	) {
+    (new common.AccountPlanner_Tabel()).ActionOnTableCell(
+        	tb
+         , 	rowNo
+         , 	column
+         , 	action)
 }
 
 def static "framework.Framework.CallPageObject"(

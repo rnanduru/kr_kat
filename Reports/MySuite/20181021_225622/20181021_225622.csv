@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-21 22:56:25,2018-10-21 23:02:53,6m - 28.138s,FAILED
+,,,,,,
+Test Cases/PageObjects/Common/OpenAppURL,Chrome 69.0.3497.100,to open any url in a given browser,2018-10-21 22:56:25,2018-10-21 22:56:34,9.127s,PASSED
+openBrowser,Chrome 69.0.3497.100,,2018-10-21 22:56:26,2018-10-21 22:56:30,4.369s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-21 22:56:30,2018-10-21 22:56:30,0.153s,PASSED
+common.RobotX.RoboKeyPress,Chrome 69.0.3497.100,,2018-10-21 22:56:30,2018-10-21 22:56:34,3.989s,PASSED
+common.RobotX.RoboKeyPressSpecial,Chrome 69.0.3497.100,,2018-10-21 22:56:34,2018-10-21 22:56:34,0.100s,PASSED
+,,,,,,
+Test Cases/TestCases/Login,Chrome 69.0.3497.100,,2018-10-21 22:56:35,2018-10-21 22:57:59,1m - 24.473s,PASSED
+callTestCase,Chrome 69.0.3497.100,,2018-10-21 22:56:35,2018-10-21 22:57:59,1m - 24.176s,PASSED
+,,,,,,
+Test Cases/TestCases/35722,Chrome 69.0.3497.100,,2018-10-21 22:57:59,2018-10-21 23:00:11,2m - 11.890s,FAILED
+callTestCase,Chrome 69.0.3497.100,,2018-10-21 22:57:59,2018-10-21 23:00:11,2m - 11.386s,FAILED
+,,,,,,
+Test Cases/TestCases/Dashboard,Chrome 69.0.3497.100,,2018-10-21 23:00:11,2018-10-21 23:02:53,2m - 42.112s,FAILED
+callTestCase,Chrome 69.0.3497.100,,2018-10-21 23:00:11,2018-10-21 23:02:53,2m - 41.828s,FAILED

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccountPlanner_Product_Selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7457b2f9-d4bb-4fe6-8468-f82ad48ea770</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>90d9c6e8-679a-457a-aa02-ff036f119ceb</id>
+      <masked>false</masked>
+      <name>DID</name>
+   </variable>
+</TestCaseEntity>

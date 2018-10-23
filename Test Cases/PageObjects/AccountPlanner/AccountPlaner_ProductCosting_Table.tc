@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>AccountPlaner_ProductCosting_Table</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9be59a3-2cce-4384-94c5-2a644e5e0244</testCaseGuid>
+   <variable>
+      <defaultValue>'1'</defaultValue>
+      <description></description>
+      <id>004a0e7c-cc43-42e0-aad1-973d6d43754b</id>
+      <masked>false</masked>
+      <name>DID</name>
+   </variable>
+</TestCaseEntity>

@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import java.util.Map as Map
+import com.google.api.client.util.DataMap as DataMap
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -23,11 +24,16 @@ for (def Iteration : Iterator) {
 }
 
 def RunTest(Map DataMap) {
-	
+    CustomKeywords.'common.General.handleDialogBox'(findTestObject('Compass/Generic/DialogBox_Error'), 'DONK', '', 'Ok')
+
     CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/AccountPlaner/ddb_plan_year'), DataMap.get('PLAN_YEAR'))
 
-    CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/AccountPlaner/ddb_customer_plan'), DataMap.get('CUSTOMER'))
+    CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/AccountPlaner/ddb_customer_plan'), DataMap.get(
+            'CUSTOMER PLAN'))
 
     CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/AccountPlaner/ddb_category'), DataMap.get('CATEGORY'))
+
+    CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/Dashboard/ddb_Customer_AreaName'), DataMap.get(
+            'CUSTOMER'))
 }
 

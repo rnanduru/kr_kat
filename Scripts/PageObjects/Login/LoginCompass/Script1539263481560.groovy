@@ -22,7 +22,7 @@ for (def Iteration : Iterator) {
 }
 
 def RunTest(Map DataMap) {
-    CustomKeywords.'common.General.sleep'(10)
+    CustomKeywords.'common.General.sleep'(20)
 
     CustomKeywords.'common.RobotX.RoboKeyPress'(DataMap.get('USERNAME'))
 

@@ -9,6 +9,10 @@
          <key>BASIC</key>
          <value>//accounts-planner[@class='ng-star-inserted']/div[2]/div[1]/div/button[text()='Export to Excel']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>

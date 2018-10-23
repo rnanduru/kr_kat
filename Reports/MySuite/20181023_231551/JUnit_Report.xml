@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MySuite" time="336" tests="4" failures="0" errors="0">
+   <testsuite name="MySuite" tests="4" failures="0" errors="0" time="336" timestamp="2018-10-23 23:15:54" hostname="DELL - 10.64.1.219" id="Test Suites/MySuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Reports\\MySuite\\20181023_231551"/>
+         <property name="logFiles" value="C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Reports\\MySuite\\20181023_231551\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DELL - 10.64.1.219"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 70.0.3538.67"/>
+         <property name="hostAddress" value="10.64.1.219"/>
+         <property name="sessionId" value="fcaac000223199d34489792865bda328"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/PageObjects/Common/OpenAppURL" classname="Test Cases/PageObjects/Common/OpenAppURL" status="PASSED">
+         <system-out><![CDATA[2018-10-23 23:15:54 - [TEST_CASE][PASSED] - Test Cases/PageObjects/Common/OpenAppURL: Test Cases/PageObjects/Common/OpenAppURL
+
+2018-10-23 23:15:55 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-10-23 23:16:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-10-23 23:16:00 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPressSpecial: common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-23 23:16:00 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-23 23:16:00 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPress: common.RobotX.RoboKeyPress is PASSED
+
+2018-10-23 23:16:04 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPress is PASSED
+
+2018-10-23 23:16:04 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPressSpecial: common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-23 23:16:04 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPressSpecial is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCases/Login" classname="Test Cases/TestCases/Login" status="PASSED">
+         <system-out><![CDATA[2018-10-23 23:16:04 - [TEST_CASE][PASSED] - Test Cases/TestCases/Login: Test Cases/TestCases/Login
+
+2018-10-23 23:16:04 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/Login/LoginCompass' successfully
+
+2018-10-23 23:16:04 - [TEST_CASE][PASSED] - Test Cases/PageObjects/Login/LoginCompass: Test Cases/PageObjects/Login/LoginCompass
+
+2018-10-23 23:16:05 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Login): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'LOGIN'
+
+2018-10-23 23:16:06 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:16:06 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:16:06 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-23 23:16:06 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 23:16:06 - [TEST_STEP][PASSED] - common.General.sleep: common.General.sleep is PASSED
+
+2018-10-23 23:16:26 - [MESSAGE][PASSED] - common.General.sleep is PASSED
+
+2018-10-23 23:16:26 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPress: common.RobotX.RoboKeyPress is PASSED
+
+2018-10-23 23:16:27 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPress is PASSED
+
+2018-10-23 23:16:27 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPressSpecial: common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-23 23:16:27 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-23 23:16:27 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPress: common.RobotX.RoboKeyPress is PASSED
+
+2018-10-23 23:16:29 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPress is PASSED
+
+2018-10-23 23:16:29 - [TEST_STEP][PASSED] - common.RobotX.RoboKeyPressSpecial: common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-23 23:16:29 - [MESSAGE][PASSED] - common.RobotX.RoboKeyPressSpecial is PASSED
+
+2018-10-23 23:16:29 - [TEST_STEP][PASSED] - common.General.sleep: common.General.sleep is PASSED
+
+2018-10-23 23:17:09 - [MESSAGE][PASSED] - common.General.sleep is PASSED
+
+2018-10-23 23:17:09 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/Login/LoginCompass' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCases/Dashboard" classname="Test Cases/TestCases/Dashboard" status="PASSED">
+         <system-out><![CDATA[2018-10-23 23:17:09 - [TEST_CASE][PASSED] - Test Cases/TestCases/Dashboard: Test Cases/TestCases/Dashboard
+
+2018-10-23 23:17:09 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/Dashboard/Dashboard_Header' successfully
+
+2018-10-23 23:17:09 - [TEST_CASE][PASSED] - Test Cases/PageObjects/Dashboard/Dashboard_Header: Test Cases/PageObjects/Dashboard/Dashboard_Header
+
+2018-10-23 23:17:09 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Dashboard): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'DASHBRD'
+
+2018-10-23 23:17:10 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:17:10 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:17:10 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-23 23:17:10 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 23:17:10 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-23 23:17:13 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-23 23:17:13 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:17:28 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:17:28 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Dashboard/ddb_plan_year' is clickable
+
+2018-10-23 23:17:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Dashboard/ddb_plan_year' is clicked on
+
+2018-10-23 23:17:28 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:17:28 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:17:28 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:17:28 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:17:43 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:17:43 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Dashboard/ddb_customer_plan' is clickable
+
+2018-10-23 23:17:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Dashboard/ddb_customer_plan' is clicked on
+
+2018-10-23 23:17:44 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:17:44 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:17:44 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:17:44 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:17:59 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:17:59 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Dashboard/ddb_category' is clickable
+
+2018-10-23 23:17:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Dashboard/ddb_category' is clicked on
+
+2018-10-23 23:17:59 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:17:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:17:59 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:17:59 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:18:14 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:18:14 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Dashboard/ddb_Customer_AreaName' is clickable
+
+2018-10-23 23:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Dashboard/ddb_Customer_AreaName' is clicked on
+
+2018-10-23 23:18:15 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:18:15 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:18:15 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:18:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/Dashboard/Dashboard_Header' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestCases/35722" classname="Test Cases/TestCases/35722" status="PASSED">
+         <system-out><![CDATA[2018-10-23 23:18:15 - [TEST_CASE][PASSED] - Test Cases/TestCases/35722: Test Cases/TestCases/35722
+
+2018-10-23 23:18:15 - [TEST_STEP][PASSED] - waitForJQueryLoad: jQuery is ready.
+
+2018-10-23 23:18:15 - [MESSAGE][PASSED] - jQuery is ready.
+
+2018-10-23 23:18:15 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/Common/Hamburg_Click' successfully
+
+2018-10-23 23:18:15 - [TEST_CASE][PASSED] - Test Cases/PageObjects/Common/Hamburg_Click: Test Cases/PageObjects/Common/Hamburg_Click
+
+2018-10-23 23:18:15 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Navigation): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'NAVIGATION'
+
+2018-10-23 23:18:16 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:18:16 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:18:16 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-23 23:18:16 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 23:18:16 - [TEST_STEP][PASSED] - common.General.clickNavigation: common.General.clickNavigation is PASSED
+
+2018-10-23 23:18:16 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Hamburg/btn_hamburg' is present
+
+2018-10-23 23:18:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Hamburg/btn_hamburg' is clicked on
+
+2018-10-23 23:18:16 - [MESSAGE][PASSED] - Object '' is present
+
+2018-10-23 23:18:16 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:18:16 - [MESSAGE][PASSED] - common.General.clickNavigation is PASSED
+
+2018-10-23 23:18:16 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/Common/Hamburg_Click' successfully
+
+2018-10-23 23:18:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/AccountPlanner/AccountPlanner_Header' successfully
+
+2018-10-23 23:18:16 - [TEST_CASE][PASSED] - Test Cases/PageObjects/AccountPlanner/AccountPlanner_Header: Test Cases/PageObjects/AccountPlanner/AccountPlanner_Header
+
+2018-10-23 23:18:17 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/AccountPlanner): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'ACC_PLANNER'
+
+2018-10-23 23:18:17 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:18:17 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:18:17 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-23 23:18:17 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 23:18:17 - [TEST_STEP][PASSED] - common.General.handleDialogBox: common.General.handleDialogBox is PASSED
+
+2018-10-23 23:18:25 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:18:25 - [MESSAGE][PASSED] - common.General.handleDialogBox is PASSED
+
+2018-10-23 23:18:25 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:18:40 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:18:40 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/AccountPlaner/ddb_plan_year' is clickable
+
+2018-10-23 23:18:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/ddb_plan_year' is clicked on
+
+2018-10-23 23:18:41 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:18:41 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:18:41 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:18:41 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/AccountPlaner/ddb_customer_plan' is clickable
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/ddb_customer_plan' is clicked on
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:18:56 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:18:56 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:18:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/AccountPlanner/AccountPlanner_Header' successfully
+
+2018-10-23 23:18:56 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/AccountPlanner/AccountPlanner_Product_Selection' successfully
+
+2018-10-23 23:18:56 - [TEST_CASE][PASSED] - Test Cases/PageObjects/AccountPlanner/AccountPlanner_Product_Selection: Test Cases/PageObjects/AccountPlanner/AccountPlanner_Product_Selection
+
+2018-10-23 23:18:57 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/AccountPlanner): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'ACC_PLANNER'
+
+2018-10-23 23:18:57 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:18:57 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:18:57 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-23 23:18:57 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 23:18:57 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:19:12 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:19:12 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/AccountPlaner/ddb_product_selection' is clickable
+
+2018-10-23 23:19:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/ddb_product_selection' is clicked on
+
+2018-10-23 23:19:13 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:19:13 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:19:13 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:19:13 - [TEST_STEP][PASSED] - common.General.handleDialogBox: common.General.handleDialogBox is PASSED
+
+2018-10-23 23:19:13 - [MESSAGE][PASSED] - common.General.handleDialogBox is PASSED
+
+2018-10-23 23:19:13 - [TEST_STEP][PASSED] - common.General.handleDialogBox: common.General.handleDialogBox is PASSED
+
+2018-10-23 23:19:36 - [MESSAGE][PASSED] - common.General.handleDialogBox is PASSED
+
+2018-10-23 23:19:36 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-23 23:19:36 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-23 23:19:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/AccountPlanner/AccountPlanner_Product_Selection' successfully
+
+2018-10-23 23:19:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table' successfully
+
+2018-10-23 23:19:36 - [TEST_CASE][PASSED] - Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table: Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table
+
+2018-10-23 23:19:36 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/AccountPlanner_ProductCost): Reading excel file with source file 'C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'ACC_PLANNER_PROD_COST'
+
+2018-10-23 23:19:36 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:19:36 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-23 23:19:36 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-23 23:19:36 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 23:19:36 - [TEST_STEP][PASSED] - common.General.buttonClick: common.General.buttonClick is PASSED
+
+2018-10-23 23:19:46 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-23 23:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/btn_add_new' is clicked on
+
+2018-10-23 23:19:47 - [MESSAGE][PASSED] - common.General.buttonClick is PASSED
+
+2018-10-23 23:19:47 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:19:47 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:19:47 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell: common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 23:19:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:19:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:19:48 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:19:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-23 23:19:49 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:19:53 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-10-23 23:19:54 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:19:54 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 23:19:54 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell: common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 23:19:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:19:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:19:55 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:19:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-23 23:19:56 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:00 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-10-23 23:20:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:00 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 23:20:00 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:01 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:20:01 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:01 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:03 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:20:03 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:03 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:04 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:20:04 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:04 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:05 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:05 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:20:05 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:05 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:06 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:20:06 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:06 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:06 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:07 - [MESSAGE][PASSED] - Text '2' is set on object ''
+
+2018-10-23 23:20:07 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:07 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:07 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:08 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:20:08 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:08 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.SelectValueInTableCell: common.AccountPlanner_Tabel.SelectValueInTableCell is PASSED
+
+2018-10-23 23:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:23 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:20:23 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:20:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:24 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:20:24 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:24 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.SelectValueInTableCell is PASSED
+
+2018-10-23 23:20:24 - [TEST_STEP][PASSED] - common.General.buttonClick: null
+
+2018-10-23 23:20:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-23 23:20:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/btn_apply_edlp' is clicked on
+
+2018-10-23 23:20:34 - [MESSAGE][PASSED] - common.General.buttonClick is PASSED
+
+2018-10-23 23:20:34 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-23 23:20:34 - [TEST_STEP][PASSED] - common.General.buttonClick: common.General.buttonClick is PASSED
+
+2018-10-23 23:20:44 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-23 23:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/btn_add_new' is clicked on
+
+2018-10-23 23:20:44 - [MESSAGE][PASSED] - common.General.buttonClick is PASSED
+
+2018-10-23 23:20:44 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:44 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:44 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell: common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 23:20:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:45 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-23 23:20:47 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:51 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-10-23 23:20:51 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:51 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 23:20:51 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell: common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 23:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2018-10-23 23:20:53 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:57 - [MESSAGE][PASSED] - Delayed 4 second(s)
+
+2018-10-23 23:20:57 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:57 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterDateInTableCell is PASSED
+
+2018-10-23 23:20:57 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:58 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:20:58 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:58 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:20:59 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:20:59 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:20:59 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:59 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:20:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:21:00 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:21:00 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:00 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:21:01 - [MESSAGE][PASSED] - Text '1' is set on object ''
+
+2018-10-23 23:21:01 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:01 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:02 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:21:02 - [MESSAGE][PASSED] - Text '3' is set on object ''
+
+2018-10-23 23:21:02 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:02 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:03 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:21:03 - [MESSAGE][PASSED] - Text '2' is set on object ''
+
+2018-10-23 23:21:03 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:03 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell: common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:04 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:21:04 - [MESSAGE][PASSED] - Text '4' is set on object ''
+
+2018-10-23 23:21:04 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED
+
+2018-10-23 23:21:04 - [TEST_STEP][PASSED] - common.AccountPlanner_Tabel.SelectValueInTableCell: common.AccountPlanner_Tabel.SelectValueInTableCell is PASSED
+
+2018-10-23 23:21:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '60'
+
+2018-10-23 23:21:20 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2018-10-23 23:21:20 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:21:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:21:20 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-23 23:21:20 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-23 23:21:20 - [MESSAGE][PASSED] - common.AccountPlanner_Tabel.SelectValueInTableCell is PASSED
+
+2018-10-23 23:21:20 - [TEST_STEP][PASSED] - common.General.buttonClick: common.General.buttonClick is PASSED
+
+2018-10-23 23:21:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2018-10-23 23:21:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/AccountPlaner/btn_apply_edlp' is clicked on
+
+2018-10-23 23:21:31 - [MESSAGE][PASSED] - common.General.buttonClick is PASSED
+
+2018-10-23 23:21:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-23 23:15:54 - [TEST_SUITE][PASSED] - MySuite: Test Cases/TestCases/35722]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

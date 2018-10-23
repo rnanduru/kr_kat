@@ -1,0 +1,1567 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2018-10-23T22:46:21</date>
+  <millis>1540314981075</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/MySuite</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">MySuite</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/MySuite</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:21</date>
+  <millis>1540314981121</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostName&amp;apos; with value &amp;apos;DELL - 10.64.1.219&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">DELL - 10.64.1.219</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:21</date>
+  <millis>1540314981130</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;os&amp;apos; with value &amp;apos;Windows 10 64bit&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 10 64bit</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:21</date>
+  <millis>1540314981132</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;hostAddress&amp;apos; with value &amp;apos;10.64.1.219&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">10.64.1.219</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:21</date>
+  <millis>1540314981136</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;katalonVersion&amp;apos; with value &amp;apos;5.7.1.1&amp;apos;</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">5.7.1.1</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:21</date>
+  <millis>1540314981765</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/TestCases/35722</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/TestCases/35722</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/TestCases/35722</property>
+  <property name="source">C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Test Cases\\TestCases\\35722.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:21</date>
+  <millis>1540314981823</millis>
+  <sequence>6</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:22</date>
+  <millis>1540314982323</millis>
+  <sequence>7</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : waitForJQueryLoad</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">16</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984398</millis>
+  <sequence>8</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;sessionId&amp;apos; with value &amp;apos;64d9f9a8f2bcc98c4cea76678db8d96d&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="sessionId">64d9f9a8f2bcc98c4cea76678db8d96d</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984424</millis>
+  <sequence>9</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;browser&amp;apos; with value &amp;apos;Chrome 70.0.3538.67&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="browser">Chrome 70.0.3538.67</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984425</millis>
+  <sequence>10</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;platform&amp;apos; with value &amp;apos;Windows 10&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="platform">Windows 10</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984430</millis>
+  <sequence>11</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;seleniumVersion&amp;apos; with value &amp;apos;3.7.1&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="seleniumVersion">3.7.1</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984438</millis>
+  <sequence>12</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Logging run data &amp;apos;proxyInformation&amp;apos; with value &amp;apos;ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="proxyInformation">ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984454</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984517</millis>
+  <sequence>14</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>jQuery is ready.</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984517</millis>
+  <sequence>15</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : waitForJQueryLoad</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984518</millis>
+  <sequence>16</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">18</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984520</millis>
+  <sequence>17</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984520</millis>
+  <sequence>18</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984521</millis>
+  <sequence>19</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">20</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984522</millis>
+  <sequence>20</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984523</millis>
+  <sequence>21</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984523</millis>
+  <sequence>22</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">4</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984524</millis>
+  <sequence>23</sequence>
+  <level>NOT_RUN</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>NOT_RUN: callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984525</millis>
+  <sequence>24</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984526</millis>
+  <sequence>25</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : callTestCase</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">25</property>
+  <property name="stepIndex">5</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984593</millis>
+  <sequence>26</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking called Test Case</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984595</millis>
+  <sequence>27</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Starting to call Test Case &amp;apos;Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table&amp;apos;</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984673</millis>
+  <sequence>28</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="name">Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/PageObjects/AccountPlanner/AccountPlaner_ProductCosting_Table</property>
+  <property name="source">C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Test Cases\\PageObjects\\AccountPlanner\\AccountPlaner_ProductCosting_Table.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984710</millis>
+  <sequence>29</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Evaluating variables for test case</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:24</date>
+  <millis>1540314984711</millis>
+  <sequence>30</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Variable &amp;apos;DID&amp;apos; is set to 1</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:25</date>
+  <millis>1540314985163</millis>
+  <sequence>31</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/AccountPlanner_ProductCost)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">17</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:25</date>
+  <millis>1540314985173</millis>
+  <sequence>32</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking test data id</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:25</date>
+  <millis>1540314985175</millis>
+  <sequence>33</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding test data with id &amp;apos;Data Files/TestData/AccountPlanner_ProductCost&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:25</date>
+  <millis>1540314985179</millis>
+  <sequence>34</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Test data is excel file, reading excel file</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:25</date>
+  <millis>1540314985181</millis>
+  <sequence>35</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Reading excel file with source file &amp;apos;C:\\Users\\DELL\\Katalon Studio\\kr_kat\\Data Files\\TestData\\TestDataFile.xlsx&amp;apos; and sheet name &amp;apos;ACC_PLANNER_PROD_COST&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986447</millis>
+  <sequence>36</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/AccountPlanner_ProductCost)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986448</millis>
+  <sequence>37</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString())</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">19</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986573</millis>
+  <sequence>38</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>framework.Framework.GetTestDataMap is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986575</millis>
+  <sequence>39</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString())</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986579</millis>
+  <sequence>40</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - For (def Iteration : Iterator)</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">21</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986585</millis>
+  <sequence>41</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : Statement - RunTest(Iteration.getValue())</message>
+  <nestedLevel>2</nestedLevel>
+  <property name="startLine">22</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986598</millis>
+  <sequence>42</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - RunTest(Iteration.getValue())</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986599</millis>
+  <sequence>43</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : Statement - For (def Iteration : Iterator)</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986599</millis>
+  <sequence>44</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.General.buttonClick</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">26</property>
+  <property name="stepIndex">1</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986620</millis>
+  <sequence>45</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Compass/AccountPlaner/btn_add_new&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986691</millis>
+  <sequence>46</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986692</millis>
+  <sequence>47</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986705</millis>
+  <sequence>48</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/btn_add_new&amp;apos; located by &amp;apos;By.xpath: //product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div/div[1]/button[text()=&amp;apos;Add New&amp;apos;]&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986735</millis>
+  <sequence>49</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/btn_add_new&amp;apos; located by &amp;apos;By.xpath: //product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div/div[1]/button[text()=&amp;apos;Add New&amp;apos;]&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986736</millis>
+  <sequence>50</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;Object Repository/Compass/AccountPlaner/btn_add_new&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986956</millis>
+  <sequence>51</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;Object Repository/Compass/AccountPlaner/btn_add_new&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986956</millis>
+  <sequence>52</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.General.buttonClick is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986958</millis>
+  <sequence>53</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.General.buttonClick</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986958</millis>
+  <sequence>54</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.AccountPlanner_Tabel.EnterValueInTableCell</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">28</property>
+  <property name="stepIndex">2</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986959</millis>
+  <sequence>55</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986973</millis>
+  <sequence>56</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>common.AccountPlanner_Tabel.EnterValueInTableCell is PASSED</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986974</millis>
+  <sequence>57</sequence>
+  <level>END</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>endKeyword</method>
+  <thread>1</thread>
+  <message>End action : common.AccountPlanner_Tabel.EnterValueInTableCell</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986974</millis>
+  <sequence>58</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>startKeyword</method>
+  <thread>1</thread>
+  <message>Start action : common.AccountPlanner_Tabel.EnterDateInTableCell</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="startLine">31</property>
+  <property name="stepIndex">3</property>
+</record>
+<record>
+  <date>2018-10-23T22:46:26</date>
+  <millis>1540314986976</millis>
+  <sequence>59</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding Test Object with id &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987022</millis>
+  <sequence>60</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987023</millis>
+  <sequence>61</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;60&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987023</millis>
+  <sequence>62</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987055</millis>
+  <sequence>63</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 17 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987070</millis>
+  <sequence>64</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987071</millis>
+  <sequence>65</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[1]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987097</millis>
+  <sequence>66</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[1]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987121</millis>
+  <sequence>67</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987121</millis>
+  <sequence>68</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[2]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987138</millis>
+  <sequence>69</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[2]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987148</millis>
+  <sequence>70</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987149</millis>
+  <sequence>71</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[3]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987170</millis>
+  <sequence>72</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[3]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987177</millis>
+  <sequence>73</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987177</millis>
+  <sequence>74</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[4]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987199</millis>
+  <sequence>75</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[4]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987206</millis>
+  <sequence>76</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987206</millis>
+  <sequence>77</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[5]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987223</millis>
+  <sequence>78</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[5]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987231</millis>
+  <sequence>79</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987232</millis>
+  <sequence>80</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[6]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987252</millis>
+  <sequence>81</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[6]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987261</millis>
+  <sequence>82</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987262</millis>
+  <sequence>83</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[7]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987283</millis>
+  <sequence>84</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[7]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987292</millis>
+  <sequence>85</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987293</millis>
+  <sequence>86</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[8]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987314</millis>
+  <sequence>87</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[8]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987323</millis>
+  <sequence>88</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987324</millis>
+  <sequence>89</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[9]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987347</millis>
+  <sequence>90</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[9]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987360</millis>
+  <sequence>91</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987361</millis>
+  <sequence>92</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[10]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987382</millis>
+  <sequence>93</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[10]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987390</millis>
+  <sequence>94</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987391</millis>
+  <sequence>95</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[11]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987408</millis>
+  <sequence>96</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[11]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987416</millis>
+  <sequence>97</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987416</millis>
+  <sequence>98</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[12]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987436</millis>
+  <sequence>99</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[12]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987444</millis>
+  <sequence>100</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987445</millis>
+  <sequence>101</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[13]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987464</millis>
+  <sequence>102</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[13]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987470</millis>
+  <sequence>103</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987471</millis>
+  <sequence>104</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[14]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987499</millis>
+  <sequence>105</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[14]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987507</millis>
+  <sequence>106</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987508</millis>
+  <sequence>107</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[15]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987525</millis>
+  <sequence>108</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[15]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987533</millis>
+  <sequence>109</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987534</millis>
+  <sequence>110</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[16]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987549</millis>
+  <sequence>111</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[16]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987560</millis>
+  <sequence>112</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987561</millis>
+  <sequence>113</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[17]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987582</millis>
+  <sequence>114</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/div/div[17]&amp;apos; in &amp;apos;10&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987589</millis>
+  <sequence>115</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987590</millis>
+  <sequence>116</sequence>
+  <level>WARNING</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Timeout &amp;apos;0&amp;apos; is invalid. Using default page load timeout: &amp;apos;60&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987590</millis>
+  <sequence>117</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/following-sibling::div/div/div&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987610</millis>
+  <sequence>118</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;Object Repository/Compass/AccountPlaner/tbl_product_costing&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/following-sibling::div/div/div&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987612</millis>
+  <sequence>119</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987613</millis>
+  <sequence>120</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987614</millis>
+  <sequence>121</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/following-sibling::div/div/div[1]/div/div[4]//span[@class=&amp;apos;k-icon k-i-calendar&amp;apos;]&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987650</millis>
+  <sequence>122</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;&amp;apos; located by &amp;apos;By.xpath: //kendo-tabstrip/div[1]/product-costing[@class=&amp;apos;ng-star-inserted&amp;apos;]/div[1]/div[@class=&amp;apos;no-right header-panel&amp;apos;]/following-sibling::div/div/div[1]/div/div[4]//span[@class=&amp;apos;k-icon k-i-calendar&amp;apos;]&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:27</date>
+  <millis>1540314987651</millis>
+  <sequence>123</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:28</date>
+  <millis>1540314988205</millis>
+  <sequence>124</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:28</date>
+  <millis>1540314988230</millis>
+  <sequence>125</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 1 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:29</date>
+  <millis>1540314989231</millis>
+  <sequence>126</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 1 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:29</date>
+  <millis>1540314989232</millis>
+  <sequence>127</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:29</date>
+  <millis>1540314989233</millis>
+  <sequence>128</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:29</date>
+  <millis>1540314989234</millis>
+  <sequence>129</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;&amp;apos; located by &amp;apos;By.xpath: //kendo-calendar//span[(text() = &amp;apos;\n                    Oct\n                &amp;apos; or . = &amp;apos;\n                    Oct\n                &amp;apos;)]&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:29</date>
+  <millis>1540314989256</millis>
+  <sequence>130</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Found 1 web elements with id: &amp;apos;&amp;apos; located by &amp;apos;By.xpath: //kendo-calendar//span[(text() = &amp;apos;\n                    Oct\n                &amp;apos; or . = &amp;apos;\n                    Oct\n                &amp;apos;)]&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:29</date>
+  <millis>1540314989256</millis>
+  <sequence>131</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Clicking on object: &amp;apos;&amp;apos;</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:29</date>
+  <millis>1540314989530</millis>
+  <sequence>132</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Object: &amp;apos;&amp;apos; is clicked on</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:29</date>
+  <millis>1540314989531</millis>
+  <sequence>133</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delaying browser in 4 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:33</date>
+  <millis>1540314993533</millis>
+  <sequence>134</sequence>
+  <level>PASSED</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Delayed 4 second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:33</date>
+  <millis>1540314993551</millis>
+  <sequence>135</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking object</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:33</date>
+  <millis>1540314993551</millis>
+  <sequence>136</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Checking timeout</message>
+  <nestedLevel>2</nestedLevel>
+</record>
+<record>
+  <date>2018-10-23T22:46:33</date>
+  <millis>1540314993551</millis>
+  <sequence>137</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.KeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>Finding web element with id: &amp;apos;&amp;apos; located by &amp;apos;By.xpath: //kendo-calendar//table/tbody/tr/td[contains(@title, &amp;apos;Tuesday, October 23, 2018&amp;apos;)]/span&amp;apos; in &amp;apos;60&amp;apos; second(s)</message>
+  <nestedLevel>2</nestedLevel>
+</record>
