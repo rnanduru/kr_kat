@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Spinner</name>
+   <name>Spiner</name>
    <tag></tag>
    <elementGuidId>ed042d5d-8b46-4554-9301-be98622cd749</elementGuidId>
    <selectorCollection>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>PageLoading</name>
+   <name>PagLoading</name>
    <tag></tag>
    <elementGuidId>71fb634b-7089-4189-a7f5-3feef60f023f</elementGuidId>
    <selectorCollection>
