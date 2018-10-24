@@ -24,7 +24,6 @@ for (def Iteration : Iterator) {
 
 def RunTest(Map DataMap) {
     
-	WebUI.delay(3)
 
     CustomKeywords.'common.General.selectListBox'(findTestObject('Compass/Dashboard/ddb_plan_year'), DataMap.get('PLAN_YEAR'))
 

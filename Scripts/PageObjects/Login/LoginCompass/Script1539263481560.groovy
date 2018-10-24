@@ -22,6 +22,7 @@ for (def Iteration : Iterator) {
 }
 
 def RunTest(Map DataMap) {
+	
     CustomKeywords.'common.General.sleep'(20)
 
     CustomKeywords.'common.RobotX.RoboKeyPress'(DataMap.get('USERNAME'))
@@ -32,6 +33,5 @@ def RunTest(Map DataMap) {
 
     CustomKeywords.'common.RobotX.RoboKeyPressSpecial'('ENTER')
 
-    CustomKeywords.'common.General.sleep'(40)
 }
 

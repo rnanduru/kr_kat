@@ -37,13 +37,21 @@ public class General {
 	def selectListBox(TestObject xPath, value){
 		if((value.toString() == "") || (value.toString() == "<null>") || (value.toString() == "null"))
 			return
-		WebUI.delay(15)
+			
+		WebUI.waitForElementNotVisible(findTestObject('Object Repository/Compass/WaitFor/Spinner'), GlobalVariable.spinnerwaittime, FailureHandling.STOP_ON_FAILURE)
+		
+		WebUI.waitForElementNotVisible(findTestObject('Object Repository/Compass/WaitFor/PageLoading'), GlobalVariable.spinnerwaittime, FailureHandling.STOP_ON_FAILURE)
+		
 		WebUI.waitForElementClickable(xPath, 40, FailureHandling.STOP_ON_FAILURE)
+		
 		WebUI.click(xPath)
-		//WebUI.waitForAngularLoad(50)
+		
 		TestObject to = new TestObject().addProperty('xpath', ConditionType.EQUALS,"//app-root/kendo-popup//kendo-list[@class='ng-star-inserted']//ul[@role='listbox']/li[contains(.,'"+value+"')]",true)
+		
 		WebUI.waitForElementClickable(to, 40, FailureHandling.STOP_ON_FAILURE)
-		//WebUI.waitForAngularLoad(50)
+		
+		WebUI.waitForElementNotVisible(findTestObject('Object Repository/Compass/WaitFor/PageLoading'), 100, FailureHandling.STOP_ON_FAILURE)
+		
 		WebUI.click(to)
 	}
 	@Keyword

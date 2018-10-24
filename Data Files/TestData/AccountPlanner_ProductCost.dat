@@ -6,11 +6,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>c549a7a9-5ef4-48d0-9b2e-98c9c3ff515b</dataFileGUID>
-   <dataSourceUrl>C:\Users\DELL\Katalon Studio\kr_kat\Data Files\TestData\TestDataFile.xlsx</dataSourceUrl>
+   <dataSourceUrl>../../../../DELL/Katalon Studio/kr_kat/Data Files/TestData/TestDataFile.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>ACC_PLANNER_PROD_COST</sheetName>
+   <sheetName></sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

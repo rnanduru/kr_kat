@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,Chrome 69.0.3497.100,,2018-10-24 14:06:46,2018-10-24 14:07:01,14.589s,FAILED
+,,,,,,
+Test Cases/TestCases/Dashboard,Chrome 69.0.3497.100,,2018-10-24 14:06:46,2018-10-24 14:07:01,14.240s,FAILED
+callTestCase,Chrome 69.0.3497.100,,2018-10-24 14:06:47,2018-10-24 14:07:01,13.935s,FAILED

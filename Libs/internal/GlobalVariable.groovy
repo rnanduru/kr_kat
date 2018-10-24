@@ -43,10 +43,15 @@ public class GlobalVariable {
      */
     public static Object defaultdateformat
      
+    /**
+     * <p></p>
+     */
+    public static Object spinnerwaittime
+     
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['app_url' : 'https://compassreg.myit.kraftheinz.com', 'username' : 'secregst376', 'password' : 'Kraft@2016', 'landingpagetitle' : 'KraftHeinz Compass', 'multivalueseperator' : ';', 'defaultdateformat' : 'dd/MM/yyyy'])
+        allVariables.put('default', ['app_url' : 'https://compassreg.myit.kraftheinz.com', 'username' : 'secregst376', 'password' : 'Kraft@2016', 'landingpagetitle' : 'KraftHeinz Compass', 'multivalueseperator' : ';', 'defaultdateformat' : 'dd/MM/yyyy', 'spinnerwaittime' : 60])
         allVariables.put('prahlada', allVariables['default'] + ['app_url' : 'https://compassDev.myit.kraftheinz.com', 'username' : 'secregst376', 'password' : 'Kraft@2016', 'landingpagetitle' : 'KraftHeinz Compass', 'multivalueseperator' : ';'])
         
         String profileName = RunConfiguration.getExecutionProfile()
@@ -58,6 +63,7 @@ public class GlobalVariable {
         landingpagetitle = selectedVariables['landingpagetitle']
         multivalueseperator = selectedVariables['multivalueseperator']
         defaultdateformat = selectedVariables['defaultdateformat']
+        spinnerwaittime = selectedVariables['spinnerwaittime']
         
     }
 }

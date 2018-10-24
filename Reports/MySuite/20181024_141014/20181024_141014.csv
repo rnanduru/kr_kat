@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+MySuite,,,2018-10-24 14:10:17,2018-10-24 14:10:22,5.214s,FAILED
+,,,,,,
+Test Cases/TestCases/Dashboard,,,2018-10-24 14:10:17,2018-10-24 14:10:22,4.833s,FAILED
+callTestCase,,,2018-10-24 14:10:17,2018-10-24 14:10:22,4.516s,FAILED

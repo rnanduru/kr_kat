@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="MySuite" time="25" tests="1" failures="0" errors="0">
+   <testsuite name="MySuite" tests="1" failures="0" errors="0" time="25" timestamp="2018-10-24 14:11:35" hostname="Admin - 10.64.0.176" id="Test Suites/MySuite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Admin\\Katalon Studio\\Kraft\\kr_kat\\Reports\\MySuite\\20181024_141133"/>
+         <property name="logFiles" value="C:\\Users\\Admin\\Katalon Studio\\Kraft\\kr_kat\\Reports\\MySuite\\20181024_141133\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Admin - 10.64.0.176"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.1.1"/>
+         <property name="browser" value="Chrome 69.0.3497.100"/>
+         <property name="hostAddress" value="10.64.0.176"/>
+         <property name="sessionId" value="347f268d490719ef0f084f0df7aad720"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TestCases/Dashboard" classname="Test Cases/TestCases/Dashboard" status="PASSED">
+         <system-out><![CDATA[2018-10-24 14:11:36 - [TEST_CASE][PASSED] - Test Cases/TestCases/Dashboard: Test Cases/TestCases/Dashboard
+
+2018-10-24 14:11:36 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/PageObjects/Dashboard/Dashboard_Header' successfully
+
+2018-10-24 14:11:36 - [TEST_CASE][PASSED] - Test Cases/PageObjects/Dashboard/Dashboard_Header: Test Cases/PageObjects/Dashboard/Dashboard_Header
+
+2018-10-24 14:11:37 - [TEST_STEP][PASSED] - Statement - td = com.kms.katalon.core.testdata.TestDataFactory.findTestData(TestData/Dashboard): Reading excel file with source file 'C:\Users\Admin\Katalon Studio\Kraft\kr_kat\Data Files\TestData\TestDataFile.xlsx' and sheet name 'DASHBRD'
+
+2018-10-24 14:11:37 - [TEST_STEP][PASSED] - Statement - Iterator = CustomKeywords.framework.Framework.GetTestDataMap(td, DID.toString()): framework.Framework.GetTestDataMap is PASSED
+
+2018-10-24 14:11:38 - [MESSAGE][PASSED] - framework.Framework.GetTestDataMap is PASSED
+
+2018-10-24 14:11:38 - [TEST_STEP][PASSED] - Statement - For (def Iteration : Iterator): null
+
+2018-10-24 14:11:38 - [TEST_STEP][PASSED] - Statement - RunTest(Iteration.getValue()): null
+
+2018-10-24 14:11:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-10-24 14:11:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-10-24 14:11:41 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-24 14:11:51 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/Spinner' is NOT visible
+
+2018-10-24 14:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/PageLoading' is NOT visible
+
+2018-10-24 14:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Dashboard/ddb_plan_year' is clickable
+
+2018-10-24 14:11:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Dashboard/ddb_plan_year' is clicked on
+
+2018-10-24 14:11:52 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-24 14:11:52 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/PageLoading' is NOT visible
+
+2018-10-24 14:11:52 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-24 14:11:52 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-24 14:11:52 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-24 14:11:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/Spinner' is NOT visible
+
+2018-10-24 14:11:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/PageLoading' is NOT visible
+
+2018-10-24 14:11:57 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Dashboard/ddb_customer_plan' is clickable
+
+2018-10-24 14:11:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Dashboard/ddb_customer_plan' is clicked on
+
+2018-10-24 14:11:58 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-24 14:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/PageLoading' is NOT visible
+
+2018-10-24 14:11:58 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-24 14:11:58 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-24 14:11:58 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-24 14:11:58 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/Spinner' is NOT visible
+
+2018-10-24 14:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/PageLoading' is NOT visible
+
+2018-10-24 14:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Dashboard/ddb_category' is clickable
+
+2018-10-24 14:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Dashboard/ddb_category' is clicked on
+
+2018-10-24 14:11:59 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-24 14:11:59 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/PageLoading' is NOT visible
+
+2018-10-24 14:12:00 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-24 14:12:00 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-24 14:12:00 - [TEST_STEP][PASSED] - common.General.selectListBox: common.General.selectListBox is PASSED
+
+2018-10-24 14:12:00 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/Spinner' is NOT visible
+
+2018-10-24 14:12:01 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/PageLoading' is NOT visible
+
+2018-10-24 14:12:01 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/Dashboard/ddb_Customer_AreaName' is clickable
+
+2018-10-24 14:12:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Compass/Dashboard/ddb_Customer_AreaName' is clicked on
+
+2018-10-24 14:12:01 - [MESSAGE][PASSED] - Object '' is clickable
+
+2018-10-24 14:12:01 - [MESSAGE][PASSED] - Object 'Object Repository/Compass/WaitFor/PageLoading' is NOT visible
+
+2018-10-24 14:12:01 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+2018-10-24 14:12:01 - [MESSAGE][PASSED] - common.General.selectListBox is PASSED
+
+2018-10-24 14:12:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/PageObjects/Dashboard/Dashboard_Header' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-10-24 14:11:35 - [TEST_SUITE][PASSED] - MySuite: Test Cases/TestCases/Dashboard]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

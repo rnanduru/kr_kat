@@ -18,6 +18,8 @@ import com.kms.katalon.core.webui.common.WebUiCommonHelper as WebUiCommonHelper
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+boolean Test = WebUI.waitForElementVisible(findTestObject('Object Repository/Compass/WaitFor/Spinner'), 40, FailureHandling.STOP_ON_FAILURE)
+
 not_run: WebUI.verifyElementPresent(findTestObject('Compass/Generic/DialogBox_PleaseConfirm'), 5)
 
 WebUI.callTestCase(findTestCase('PageObjects/AccountPlanner/AccountPlanner_Product_Selection'), [('DID') : '1'], FailureHandling.STOP_ON_FAILURE)

@@ -4,7 +4,7 @@
    <name>MySuite</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-10-23T23:15:51</lastRun>
+   <lastRun>2018-10-24T14:25:17</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -44,7 +44,13 @@
    <testCaseLink>
       <guid>5c7f28a4-2a82-4798-ad19-c18a6773a96b</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
+      <isRun>false</isRun>
       <testCaseId>Test Cases/TestCases/35722</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe55dc94-fe5c-4b92-a5c3-720ad3d31b7d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>false</isRun>
+      <testCaseId>Test Cases/PageObjects/WaitHelper/WaitHelper</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

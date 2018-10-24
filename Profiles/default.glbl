@@ -34,4 +34,9 @@
       <initValue>'dd/MM/yyyy'</initValue>
       <name>defaultdateformat</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>60</initValue>
+      <name>spinnerwaittime</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
